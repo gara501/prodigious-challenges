@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/bower_components/bootstrap/dist/css/bootstrap.min.css' />
+    <link rel='stylesheet' href='/stylesheets/challenges.css' />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
+  </head>
+  <body>
+    <%- include('components/nav.ejs', {data: 'data'}); %>
+    <%- include('components/landing.ejs', {data: 'data'}); %>
+    <script src='/bower_components/jquery/dist/jquery.min.js'></script>
+    <script src='/bower_components/bootstrap/dist/js/bootstrap.min.js'></script>
+  </body>
+</html>
